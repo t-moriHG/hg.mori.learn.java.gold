@@ -1,9 +1,9 @@
 package hg.mori.learn.java.gold.inheritance;
 
 /*
- * has-a�֌W�ɂ��Ă̊m�F(�e�N���X)
- * HasASub��HasAParent�����L���Ă���B
+ * has-a関係について(親クラス)
+ * HasASubはHasAParentを持っている
  */
 public class HasAParent {
-	String name = "���Y";
+	String name = "太郎";
 }

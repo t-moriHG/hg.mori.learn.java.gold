@@ -1,9 +1,9 @@
 package hg.mori.learn.java.gold.inheritance;
 
 /*
- * �p���o���鐔�ɂ���(�q�N���X)
- * �N���X�͑��d�p���o���Ȃ��B
- * �C���^�[�t�F�[�X�͑��d�p���\
+ * 継承出来る数について(子クラス)
+ * クラスは多重継承出来ない
+ * インタフェースは多重継承出来る
  */
 public class InheritanceSub extends InheritanceParent {
 	String name = super.name;

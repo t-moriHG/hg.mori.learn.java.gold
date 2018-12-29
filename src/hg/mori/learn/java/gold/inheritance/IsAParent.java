@@ -1,10 +1,10 @@
 package hg.mori.learn.java.gold.inheritance;
 
 /*
- * is-a�֌W�ɂ��Ă̊m�F(�e�N���X)
- * IsASub��IsAParent�ł���
- * IsAParent��IsASub�ł͂Ȃ�
+ * is-aクラスについて(親クラス)
+ * IsASubはIsAParentである
+ * IsAParentはIsASubではない
  */
 public class IsAParent {
-	String name = "���Y";
+	String name = "太郎";
 }

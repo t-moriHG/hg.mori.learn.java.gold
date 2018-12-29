@@ -1,8 +1,8 @@
 package hg.mori.learn.java.gold.inheritance;
 
 /*
- * has-a�֌W�ɂ��Ă̊m�F(�e�N���X)
- * HasASub��HasAParent�����L���Ă���B
+ * has-a関係について(子クラス)
+ * HasASubはHasAParentを持っている
  */
 public class HasASub {
 	HasAParent parent;

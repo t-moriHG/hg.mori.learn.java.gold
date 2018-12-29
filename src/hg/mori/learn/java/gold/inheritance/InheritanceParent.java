@@ -1,10 +1,10 @@
 package hg.mori.learn.java.gold.inheritance;
 
 /*
- * �p���o���鐔�ɂ���(�e�N���X)
- * �N���X�͑��d�p���o���Ȃ��B
- * �C���^�[�t�F�[�X�͑��d�p���\
+ * 継承出来る数について(親クラス)
+ * クラスは多重継承出来ない
+ * インタフェースは多重継承出来る
  */
 public class InheritanceParent {
-	String name = "���Y";
+	String name = "太郎";
 }
