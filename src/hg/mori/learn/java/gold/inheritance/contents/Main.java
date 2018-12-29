@@ -1,4 +1,4 @@
-package hg.mori.learn.java.gold.inheritance;
+package hg.mori.learn.java.gold.inheritance.contents;
 
 /*
  * 継承出来る内容について(Mainクラス)
@@ -11,10 +11,10 @@ package hg.mori.learn.java.gold.inheritance;
  * privateは継承されない、概念的な話では解釈が色々あるみたいだけど
  * 少なくともそのまま使う事は出来ない
  */
-public class ExtendContentsMain {
+public class Main {
 
 	public static void main(String[] args) {
-		ExtendContentsSub sub = new ExtendContentsSub();
+		Sub sub = new Sub();
 		System.out.println(sub.tanaka);
 		System.out.println(sub.yamada);
 	}

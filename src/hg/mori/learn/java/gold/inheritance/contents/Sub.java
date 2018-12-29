@@ -1,7 +1,7 @@
-package hg.mori.learn.java.gold.inheritance;
+package hg.mori.learn.java.gold.inheritance.contents;
 
 /*
- * 継承出来る内容について(親クラス)
+ * 継承出来る内容について(子クラス)
  * 状態(フィールド) → 〇
  * 振る舞い(メソッド) → 〇
  * 内部クラス → ×
@@ -11,12 +11,7 @@ package hg.mori.learn.java.gold.inheritance;
  * privateは継承されない、概念的な話では解釈が色々あるみたいだけど
  * 少なくともそのまま使う事は出来ない
  */
-public class ExtendContentsParent {
-
-	String name = "太郎";
-
-	String getName() {
-		return "次郎";
-	}
-
+public class Sub extends Parent {
+	String tanaka = super.name;
+	String yamada = getName();
 }
