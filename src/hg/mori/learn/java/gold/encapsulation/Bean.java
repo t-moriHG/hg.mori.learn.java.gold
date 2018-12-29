@@ -4,7 +4,7 @@ package hg.mori.learn.java.gold.encapsulation;
  * フィールド変数はprivateに
  * メソッドでprivateの変数をコントロールするイメージ
  */
-public class TestBean {
+public class Bean {
 
 	// フィールドの値はprivateに
 	private String name;
